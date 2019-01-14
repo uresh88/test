@@ -2,10 +2,10 @@
     console.log("All resources finished loading!");
    var t= document.getElementById('test');
 var i = 0
-while(true){
+while(i < 100){
  
  setTimeout(()=>{
-   t.innerHTML = (i++) %10
+   t.innerHTML = t + ((i++) %10);
    if(i=10){
    i=0
    }
